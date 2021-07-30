@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #82CDFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    color: #0099FF;
+    text-transform: capitalize;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: #0099FF;
+}
+
+h2::first-letter{
+    text-transform: capitalize;
+}
+
+.wrapper-winner-box{
+    width: 100%;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    margin-bottom: -10px; /*não deixa de ser um margim bottom hahaha,foi só pra colar os dois*/
+}
+
+.winner-box{
+    background-color: #0099FF;
+    padding: 15px 40px 15px 40px;
+    color: #ffffff;
+    border-radius: 8px 8px 0 0;
+    font-size: 40px;
+    text-align: center;
+}
+.winner-box::first-letter{
+    text-transform: capitalize;
+}
+
+.players-scoreboard-wrapper{
+    width: 881px;
+    height: 128px;
+    background-color: #0099FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 38px;
+    color: #ffffff;
+    border-radius: 17px;
+    padding: 0 30px 0 30px;
+    margin-bottom: 56px;
+}
+
+.versus{
+    font-size: 58px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.score{
+    padding: 13px;
+    font-size: 90px;
+    font-weight: 900;
+    background-color: #ffffff;
+    color: #0099FF;
+    border-radius: 17px;
+}
+
+.battlefield-wrapper{
+    width: 100%;
+    max-width: 1600px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 66px 0 66px;
+    margin-bottom: 20px;
+}
+
+.atacks-box{
+    width: 220px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.button-deafult-wrapper{
+    width: 220px;
+    height: 80px;
+    background-color: transparent;
+}
+
+.button-deafult{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 17px;
+}
+
+.button-deafult--font{
+    font-size: 44px;
+}
+
+.button-deafult--font--start-reset{
+    font-size: 33px;
+}
+
+.button-default--reset--start-wrapper{
+    width: 238px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.field-wrapper{
+    width: 1000px;
+    height: 100%;
+    background-color: #0099FF;
+    color: #ffffff;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 104px;
+    font-weight: 900;
+}
+
+.player-field{
+    width: 40%;
+    height: 90%;
+    background-color: white;
+    border-radius: 17px;
+}
+
+.start-reset-wrapper{
+    width: 100%;
+    max-width: 1600px;
+    height: 69px;
+    padding: 0 450px 0 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button-deafult--font{
+    font-size: 33px;
+}
+
+.button-default--reset--start-wrapper{
+    width: 238px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+*{
+    box-sizing: border-box;
+}
